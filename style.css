@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.title_box{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.icon{
+    width: 50px;
+}
+.input{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input_box{
+    width: 70%;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+    border-color: antiquewhite;
+    border: 1px solid rgb(194, 192, 189);
+    border-radius: 15px;
+}
+.btn{
+    width:150px;
+    border: none;
+    background-color: rgb(28, 28, 71);
+    color: white;
+    padding: 10px 15px ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.btn:hover{
+    background-color: rgb(35, 35, 119);
+    transition: color 1s ease;
+}
+.edit_btn{
+    width:150px;
+    border: none;
+    background-color: rgb(28, 28, 71);
+    color: white;
+    padding: 10px 15px ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.edit_btn:hover{
+    background-color: rgb(35, 35, 119);
+    transition: color 1s ease;
+}
+.clear_btn{
+    width:150px;
+    border: none;
+    background-color: rgb(28, 28, 71);
+    color: white;
+    padding: 10px 15px ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.clear_btn:hover{
+    background-color: rgb(35, 35, 119);
+    transition: color 1s ease;
+}
+.list_box{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: rgb(205, 200, 200);
+    padding: 15px;
+    gap: 50px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.cross{
+    width: 15px;
+    cursor: pointer;
+    background: none;
+    border:none;
+}
+.delete{
+    width: 15px;
+    cursor: pointer;
+    background: none;
+    border:none;
+}
+.hide{
+    display: none;
+}
